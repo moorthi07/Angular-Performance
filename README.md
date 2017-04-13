@@ -1,6 +1,8 @@
 # Angular-Performance
 
 
+Angular-Performance/ng4_performance.PNG
+
 #### ANGULAR MATERIAL CHANGES IN BETA_3 NEEDS MUDULES NAMES:
 No documentation to quickly find the Material component module names, since MaterialModule and MaterialRoodModules are deprecated.
 
