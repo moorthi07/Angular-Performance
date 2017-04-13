@@ -2,8 +2,8 @@
 
 Angular-Performance/ng4_performance.PNG
 
-![Alt text](Angular-Performance/ng4_performance.PNG)
-![Alt text](Angular-Performance/ng4_performance.PNG)
+![Alt text](/ng2_performance.PNG)
+![Alt text](/ng4_performance.PNG)
 
 ### Performance comparision between Angular 2 and Angular 4 (ng2 vs ng4)
 
