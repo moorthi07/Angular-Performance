@@ -1,0 +1,31 @@
+
+ AngularJS 2 
+
+localhost	200	document	Other	1.2 KB	303 ms
+inline.bundle.js	200	script	(index)	5.9 KB	2 ms
+scripts.bundle.js	200	script	(index)	416 KB	9 ms
+styles.bundle.js	200	script	(index)	225 KB	284 ms
+vendor.bundle.js	200	script	(index)	5.3 MB	779 ms
+main.bundle.js	200	script	(index)	35.9 KB	426 ms
+icon?family=Material+Icons	200	stylesheet	addStyles.js:225	416 B	175 ms
+roboto-v15-latin-regular.7e367be02cd17a96d513.woff2	200	font	(index)	14.5 KB	167 ms
+files.json	200	xhr	zone.js:2019	2.5 KB	3 ms
+2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2	200	font	tab-header.js:274	46.6 KB	43 ms
+info?t=1492122567449	200	xhr	zone.js:2019	368 B	240 ms
+websocket	101	websocket	websocket.js:6	0 B	Pending
+
+
+Angular JS 4
+
+localhost	200	document	Other	1.2 KB	305 ms
+inline.bundle.js	200	script	(index)	5.9 KB	2 ms
+scripts.bundle.js	200	script	(index)	416 KB	9 ms
+styles.bundle.js	200	script	(index)	228 KB	286 ms
+vendor.bundle.js	200	script	(index)	4.5 MB	959 ms
+main.bundle.js	200	script	(index)	36.7 KB	484 ms
+icon?family=Material+Icons	200	stylesheet	addStyles.js:225	625 B	270 ms
+roboto-v15-latin-regular.7e367be02cd17a96d513.woff2	200	font	(index)	14.5 KB	251 ms
+files.json	200	xhr	zone.js:1990	2.5 KB	189 ms
+2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2	200	font	browser.es5.js:2434	46.8 KB	220 ms
+info?t=1492122558904	200	xhr	zone.js:1990	368 B	25 ms
+websocket	101	websocket	websocket.js:6	0 B	Pending
