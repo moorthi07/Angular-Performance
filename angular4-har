@@ -1,0 +1,1572 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "WebInspector",
+      "version": "537.36"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2017-04-13T22:29:15.330Z",
+        "id": "page_9",
+        "title": "http://localhost:4204/",
+        "pageTimings": {
+          "onContentLoad": 3566.999999999098,
+          "onLoad": 3916.000000001077
+        }
+      }
+    ],
+    "entries": [
+      {
+        "startedDateTime": "2017-04-13T22:29:15.330Z",
+        "time": 305.00000000029104,
+        "request": {
+          "method": "GET",
+          "url": "http://localhost:4204/",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch, br"
+            },
+            {
+              "name": "Host",
+              "value": "localhost:4204"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8"
+            },
+            {
+              "name": "Upgrade-Insecure-Requests",
+              "value": "1"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+            },
+            {
+              "name": "Referer",
+              "value": "http://localhost:4204/"
+            },
+            {
+              "name": "Cookie",
+              "value": "ASP.NET_SessionId=ayf4mbvg33opnwxhxolgzrsa; sid=cf51cb6180495836f2faa889dc31eae7db92368dd8a4f9f4058ef70dbc239e165c672ba9ab4df8892ed169d56a8309bdc441349c7e04f0348bae257a9f067491; io=Y9YYpl-7XC4ezhrKAAAB; showLeftCol=true"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            }
+          ],
+          "queryString": [],
+          "cookies": [
+            {
+              "name": "ASP.NET_SessionId",
+              "value": "ayf4mbvg33opnwxhxolgzrsa",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "sid",
+              "value": "cf51cb6180495836f2faa889dc31eae7db92368dd8a4f9f4058ef70dbc239e165c672ba9ab4df8892ed169d56a8309bdc441349c7e04f0348bae257a9f067491",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "io",
+              "value": "Y9YYpl-7XC4ezhrKAAAB",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "showLeftCol",
+              "value": "true",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 687,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Thu, 13 Apr 2017 22:29:15 GMT"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "name": "ETag",
+              "value": "W/\"3ec-NC/CIJeM0R7w2BbwyejV1PfiyRo\""
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/html; charset=UTF-8"
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "Content-Length",
+              "value": "1004"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 1004,
+            "mimeType": "text/html",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 262,
+          "bodySize": 1004,
+          "_transferSize": 1266
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 1.00000000020373,
+          "dns": 300.9999999994763,
+          "connect": 0,
+          "send": 0,
+          "wait": 1.0000000002039542,
+          "receive": 2.0000000004070557,
+          "ssl": -1
+        },
+        "serverIPAddress": "127.0.0.1",
+        "connection": "20057",
+        "pageref": "page_9"
+      },
+      {
+        "startedDateTime": "2017-04-13T22:29:15.652Z",
+        "time": 1.5000000021245796,
+        "request": {
+          "method": "GET",
+          "url": "http://localhost:4204/inline.bundle.js",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch, br"
+            },
+            {
+              "name": "Host",
+              "value": "localhost:4204"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "http://localhost:4204/"
+            },
+            {
+              "name": "Cookie",
+              "value": "ASP.NET_SessionId=ayf4mbvg33opnwxhxolgzrsa; sid=cf51cb6180495836f2faa889dc31eae7db92368dd8a4f9f4058ef70dbc239e165c672ba9ab4df8892ed169d56a8309bdc441349c7e04f0348bae257a9f067491; io=Y9YYpl-7XC4ezhrKAAAB; showLeftCol=true"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            }
+          ],
+          "queryString": [],
+          "cookies": [
+            {
+              "name": "ASP.NET_SessionId",
+              "value": "ayf4mbvg33opnwxhxolgzrsa",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "sid",
+              "value": "cf51cb6180495836f2faa889dc31eae7db92368dd8a4f9f4058ef70dbc239e165c672ba9ab4df8892ed169d56a8309bdc441349c7e04f0348bae257a9f067491",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "io",
+              "value": "Y9YYpl-7XC4ezhrKAAAB",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "showLeftCol",
+              "value": "true",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 602,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Thu, 13 Apr 2017 22:29:15 GMT"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "name": "ETag",
+              "value": "W/\"1684-F7GH+A+5Cc6ukM96UpcNVI1q4ac\""
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/javascript; charset=UTF-8"
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "Content-Length",
+              "value": "5764"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 5764,
+            "mimeType": "application/javascript",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 276,
+          "bodySize": 5764,
+          "_transferSize": 6040
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0,
+          "dns": -1,
+          "connect": -1,
+          "send": 0,
+          "wait": 1.00000000020373,
+          "receive": 0.5000000019208497,
+          "ssl": -1
+        },
+        "serverIPAddress": "127.0.0.1",
+        "connection": "20057",
+        "pageref": "page_9"
+      },
+      {
+        "startedDateTime": "2017-04-13T22:29:15.657Z",
+        "time": 8.999999998195563,
+        "request": {
+          "method": "GET",
+          "url": "http://localhost:4204/scripts.bundle.js",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch, br"
+            },
+            {
+              "name": "Host",
+              "value": "localhost:4204"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "http://localhost:4204/"
+            },
+            {
+              "name": "Cookie",
+              "value": "ASP.NET_SessionId=ayf4mbvg33opnwxhxolgzrsa; sid=cf51cb6180495836f2faa889dc31eae7db92368dd8a4f9f4058ef70dbc239e165c672ba9ab4df8892ed169d56a8309bdc441349c7e04f0348bae257a9f067491; io=Y9YYpl-7XC4ezhrKAAAB; showLeftCol=true"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            }
+          ],
+          "queryString": [],
+          "cookies": [
+            {
+              "name": "ASP.NET_SessionId",
+              "value": "ayf4mbvg33opnwxhxolgzrsa",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "sid",
+              "value": "cf51cb6180495836f2faa889dc31eae7db92368dd8a4f9f4058ef70dbc239e165c672ba9ab4df8892ed169d56a8309bdc441349c7e04f0348bae257a9f067491",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "io",
+              "value": "Y9YYpl-7XC4ezhrKAAAB",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "showLeftCol",
+              "value": "true",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 603,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Thu, 13 Apr 2017 22:29:15 GMT"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "name": "ETag",
+              "value": "W/\"67d8b-PLRxmE9+CfitXSA0lrtzG8hPXCI\""
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/javascript; charset=UTF-8"
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "Content-Length",
+              "value": "425355"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 425355,
+            "mimeType": "application/javascript",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 279,
+          "bodySize": 425355,
+          "_transferSize": 425634
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 3.99999999717693,
+          "dns": -1,
+          "connect": -1,
+          "send": 0,
+          "wait": 2.0000000004074505,
+          "receive": 3.000000000611182,
+          "ssl": -1
+        },
+        "serverIPAddress": "127.0.0.1",
+        "connection": "20057",
+        "pageref": "page_9"
+      },
+      {
+        "startedDateTime": "2017-04-13T22:29:15.657Z",
+        "time": 286.0000000000582,
+        "request": {
+          "method": "GET",
+          "url": "http://localhost:4204/styles.bundle.js",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch, br"
+            },
+            {
+              "name": "Host",
+              "value": "localhost:4204"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "http://localhost:4204/"
+            },
+            {
+              "name": "Cookie",
+              "value": "ASP.NET_SessionId=ayf4mbvg33opnwxhxolgzrsa; sid=cf51cb6180495836f2faa889dc31eae7db92368dd8a4f9f4058ef70dbc239e165c672ba9ab4df8892ed169d56a8309bdc441349c7e04f0348bae257a9f067491; io=Y9YYpl-7XC4ezhrKAAAB; showLeftCol=true"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            }
+          ],
+          "queryString": [],
+          "cookies": [
+            {
+              "name": "ASP.NET_SessionId",
+              "value": "ayf4mbvg33opnwxhxolgzrsa",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "sid",
+              "value": "cf51cb6180495836f2faa889dc31eae7db92368dd8a4f9f4058ef70dbc239e165c672ba9ab4df8892ed169d56a8309bdc441349c7e04f0348bae257a9f067491",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "io",
+              "value": "Y9YYpl-7XC4ezhrKAAAB",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "showLeftCol",
+              "value": "true",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 602,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Thu, 13 Apr 2017 22:29:15 GMT"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "name": "ETag",
+              "value": "W/\"390d6-4hpbviot1iB0MvbKHtTzkfHeVj4\""
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/javascript; charset=UTF-8"
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "Content-Length",
+              "value": "233686"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 233686,
+            "mimeType": "application/javascript",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 279,
+          "bodySize": 233686,
+          "_transferSize": 233965
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 8.99999999819556,
+          "dns": -1,
+          "connect": -1,
+          "send": 0,
+          "wait": 274.00000000125146,
+          "receive": 3.0000000006111804,
+          "ssl": -1
+        },
+        "serverIPAddress": "127.0.0.1",
+        "connection": "20057",
+        "pageref": "page_9"
+      },
+      {
+        "startedDateTime": "2017-04-13T22:29:15.657Z",
+        "time": 958.5000000006403,
+        "request": {
+          "method": "GET",
+          "url": "http://localhost:4204/vendor.bundle.js",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch, br"
+            },
+            {
+              "name": "Host",
+              "value": "localhost:4204"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "http://localhost:4204/"
+            },
+            {
+              "name": "Cookie",
+              "value": "ASP.NET_SessionId=ayf4mbvg33opnwxhxolgzrsa; sid=cf51cb6180495836f2faa889dc31eae7db92368dd8a4f9f4058ef70dbc239e165c672ba9ab4df8892ed169d56a8309bdc441349c7e04f0348bae257a9f067491; io=Y9YYpl-7XC4ezhrKAAAB; showLeftCol=true"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            }
+          ],
+          "queryString": [],
+          "cookies": [
+            {
+              "name": "ASP.NET_SessionId",
+              "value": "ayf4mbvg33opnwxhxolgzrsa",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "sid",
+              "value": "cf51cb6180495836f2faa889dc31eae7db92368dd8a4f9f4058ef70dbc239e165c672ba9ab4df8892ed169d56a8309bdc441349c7e04f0348bae257a9f067491",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "io",
+              "value": "Y9YYpl-7XC4ezhrKAAAB",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "showLeftCol",
+              "value": "true",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 602,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Thu, 13 Apr 2017 22:29:15 GMT"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "name": "ETag",
+              "value": "W/\"486ca6-nRg1qAsv8cHLm+PWOAhnoTMjko8\""
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/javascript; charset=UTF-8"
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "Content-Length",
+              "value": "4746406"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 4746406,
+            "mimeType": "application/javascript",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 281,
+          "bodySize": 4746406,
+          "_transferSize": 4746687
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0,
+          "dns": 229.999999999563,
+          "connect": 0,
+          "send": 0,
+          "wait": 52.99999999988404,
+          "receive": 675.5000000011933,
+          "ssl": -1
+        },
+        "serverIPAddress": "127.0.0.1",
+        "connection": "20092",
+        "pageref": "page_9"
+      },
+      {
+        "startedDateTime": "2017-04-13T22:29:15.656Z",
+        "time": 483.5000000020955,
+        "request": {
+          "method": "GET",
+          "url": "http://localhost:4204/main.bundle.js",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch, br"
+            },
+            {
+              "name": "Host",
+              "value": "localhost:4204"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "http://localhost:4204/"
+            },
+            {
+              "name": "Cookie",
+              "value": "ASP.NET_SessionId=ayf4mbvg33opnwxhxolgzrsa; sid=cf51cb6180495836f2faa889dc31eae7db92368dd8a4f9f4058ef70dbc239e165c672ba9ab4df8892ed169d56a8309bdc441349c7e04f0348bae257a9f067491; io=Y9YYpl-7XC4ezhrKAAAB; showLeftCol=true"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            }
+          ],
+          "queryString": [],
+          "cookies": [
+            {
+              "name": "ASP.NET_SessionId",
+              "value": "ayf4mbvg33opnwxhxolgzrsa",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "sid",
+              "value": "cf51cb6180495836f2faa889dc31eae7db92368dd8a4f9f4058ef70dbc239e165c672ba9ab4df8892ed169d56a8309bdc441349c7e04f0348bae257a9f067491",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "io",
+              "value": "Y9YYpl-7XC4ezhrKAAAB",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "showLeftCol",
+              "value": "true",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 600,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Thu, 13 Apr 2017 22:29:15 GMT"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "name": "ETag",
+              "value": "W/\"918b-HfosezV8guEmCHeCZXUSxLGxnmM\""
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/javascript; charset=UTF-8"
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "Content-Length",
+              "value": "37259"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 37259,
+            "mimeType": "application/javascript",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 277,
+          "bodySize": 37259,
+          "_transferSize": 37536
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 287.000000000262,
+          "dns": -1,
+          "connect": -1,
+          "send": 0,
+          "wait": 190.999999998894,
+          "receive": 5.500000002939487,
+          "ssl": -1
+        },
+        "serverIPAddress": "127.0.0.1",
+        "connection": "20057",
+        "pageref": "page_9"
+      },
+      {
+        "startedDateTime": "2017-04-13T22:29:15.987Z",
+        "time": 270.00000000043656,
+        "request": {
+          "method": "GET",
+          "url": "https://fonts.googleapis.com/icon?family=Material+Icons",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Referer",
+              "value": "http://localhost:4204/"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "family",
+              "value": "Material+Icons"
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "date",
+              "value": "Thu, 13 Apr 2017 22:29:16 GMT"
+            },
+            {
+              "name": "content-encoding",
+              "value": "br"
+            },
+            {
+              "name": "last-modified",
+              "value": "Thu, 13 Apr 2017 22:29:16 GMT"
+            },
+            {
+              "name": "server",
+              "value": "ESF"
+            },
+            {
+              "name": "link",
+              "value": "<https://fonts.gstatic.com>; rel=preconnect; crossorigin"
+            },
+            {
+              "name": "x-frame-options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "name": "status",
+              "value": "200"
+            },
+            {
+              "name": "content-type",
+              "value": "text/css; charset=utf-8"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "*"
+            },
+            {
+              "name": "cache-control",
+              "value": "private, max-age=86400, stale-while-revalidate=604800"
+            },
+            {
+              "name": "timing-allow-origin",
+              "value": "*"
+            },
+            {
+              "name": "alt-svc",
+              "value": "quic=\":443\"; ma=2592000; v=\"37,36,35\""
+            },
+            {
+              "name": "x-xss-protection",
+              "value": "1; mode=block"
+            },
+            {
+              "name": "expires",
+              "value": "Thu, 13 Apr 2017 22:29:16 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 640,
+            "mimeType": "text/css"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 625
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 150.000000001455,
+          "dns": 5.0000000010190035,
+          "connect": 3.9999999971770137,
+          "send": 0,
+          "wait": 104.99999999956302,
+          "receive": 6.000000001222531,
+          "ssl": 34.999999999854
+        },
+        "serverIPAddress": "172.217.9.138",
+        "pageref": "page_9"
+      },
+      {
+        "startedDateTime": "2017-04-13T22:29:16.005Z",
+        "time": 251.4999999984866,
+        "request": {
+          "method": "GET",
+          "url": "http://localhost:4204/roboto-v15-latin-regular.7e367be02cd17a96d513.woff2",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Origin",
+              "value": "http://localhost:4204"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch, br"
+            },
+            {
+              "name": "Host",
+              "value": "localhost:4204"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "http://localhost:4204/"
+            },
+            {
+              "name": "Cookie",
+              "value": "ASP.NET_SessionId=ayf4mbvg33opnwxhxolgzrsa; sid=cf51cb6180495836f2faa889dc31eae7db92368dd8a4f9f4058ef70dbc239e165c672ba9ab4df8892ed169d56a8309bdc441349c7e04f0348bae257a9f067491; io=Y9YYpl-7XC4ezhrKAAAB; showLeftCol=true"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            }
+          ],
+          "queryString": [],
+          "cookies": [
+            {
+              "name": "ASP.NET_SessionId",
+              "value": "ayf4mbvg33opnwxhxolgzrsa",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "sid",
+              "value": "cf51cb6180495836f2faa889dc31eae7db92368dd8a4f9f4058ef70dbc239e165c672ba9ab4df8892ed169d56a8309bdc441349c7e04f0348bae257a9f067491",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "io",
+              "value": "Y9YYpl-7XC4ezhrKAAAB",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "showLeftCol",
+              "value": "true",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 668,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Thu, 13 Apr 2017 22:29:16 GMT"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "name": "ETag",
+              "value": "W/\"38f8-HrVy0CPxU4nOCqS8VP3SjJ9xciM\""
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/font-woff2; charset=UTF-8"
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "Content-Length",
+              "value": "14584"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 14584,
+            "mimeType": "application/font-woff2",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 277,
+          "bodySize": 14584,
+          "_transferSize": 14861
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 133.999999998196,
+          "dns": -1,
+          "connect": -1,
+          "send": 1.0000000002030163,
+          "wait": 111.000000000786,
+          "receive": 5.499999999301593,
+          "ssl": -1
+        },
+        "serverIPAddress": "127.0.0.1",
+        "connection": "20107",
+        "pageref": "page_9"
+      },
+      {
+        "startedDateTime": "2017-04-13T22:29:18.742Z",
+        "time": 188.9999999984866,
+        "request": {
+          "method": "GET",
+          "url": "http://localhost:4204/assets/resources/files.json",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch, br"
+            },
+            {
+              "name": "Host",
+              "value": "localhost:4204"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "application/json, text/plain, */*"
+            },
+            {
+              "name": "Referer",
+              "value": "http://localhost:4204/"
+            },
+            {
+              "name": "Cookie",
+              "value": "ASP.NET_SessionId=ayf4mbvg33opnwxhxolgzrsa; sid=cf51cb6180495836f2faa889dc31eae7db92368dd8a4f9f4058ef70dbc239e165c672ba9ab4df8892ed169d56a8309bdc441349c7e04f0348bae257a9f067491; io=Y9YYpl-7XC4ezhrKAAAB; showLeftCol=true"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            }
+          ],
+          "queryString": [],
+          "cookies": [
+            {
+              "name": "ASP.NET_SessionId",
+              "value": "ayf4mbvg33opnwxhxolgzrsa",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "sid",
+              "value": "cf51cb6180495836f2faa889dc31eae7db92368dd8a4f9f4058ef70dbc239e165c672ba9ab4df8892ed169d56a8309bdc441349c7e04f0348bae257a9f067491",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "io",
+              "value": "Y9YYpl-7XC4ezhrKAAAB",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "showLeftCol",
+              "value": "true",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 643,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Thu, 13 Apr 2017 22:29:18 GMT"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "name": "ETag",
+              "value": "W/\"920-r49Bl+fEPwpsgz+a8ip5ILUScUY\""
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json; charset=UTF-8"
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "Content-Length",
+              "value": "2336"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 2336,
+            "mimeType": "application/json",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 269,
+          "bodySize": 2336,
+          "_transferSize": 2605
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 185.00000000131,
+          "dns": -1,
+          "connect": -1,
+          "send": 0,
+          "wait": 2.9999999969729743,
+          "receive": 1.0000000002036131,
+          "ssl": -1
+        },
+        "serverIPAddress": "127.0.0.1",
+        "connection": "20092",
+        "pageref": "page_9"
+      },
+      {
+        "startedDateTime": "2017-04-13T22:29:18.768Z",
+        "time": 220.00000000116415,
+        "request": {
+          "method": "GET",
+          "url": "https://fonts.gstatic.com/s/materialicons/v21/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+            },
+            {
+              "name": "Referer",
+              "value": "https://fonts.googleapis.com/icon?family=Material+Icons"
+            },
+            {
+              "name": "Origin",
+              "value": "http://localhost:4204"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "date",
+              "value": "Tue, 28 Mar 2017 15:16:57 GMT"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "last-modified",
+              "value": "Mon, 06 Feb 2017 21:31:57 GMT"
+            },
+            {
+              "name": "server",
+              "value": "sffe"
+            },
+            {
+              "name": "age",
+              "value": "1408341"
+            },
+            {
+              "name": "status",
+              "value": "200"
+            },
+            {
+              "name": "content-type",
+              "value": "font/woff2"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "*"
+            },
+            {
+              "name": "cache-control",
+              "value": "public, max-age=31536000"
+            },
+            {
+              "name": "accept-ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "timing-allow-origin",
+              "value": "*"
+            },
+            {
+              "name": "alt-svc",
+              "value": "quic=\":443\"; ma=2592000; v=\"37,36,35\""
+            },
+            {
+              "name": "content-length",
+              "value": "47692"
+            },
+            {
+              "name": "x-xss-protection",
+              "value": "1; mode=block"
+            },
+            {
+              "name": "expires",
+              "value": "Wed, 28 Mar 2018 15:16:57 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 47692,
+            "mimeType": "font/woff2"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 47937
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0,
+          "dns": 0,
+          "connect": 158.000000003085,
+          "send": 0,
+          "wait": 30.99999999904,
+          "receive": 30.999999999039147,
+          "ssl": 0
+        },
+        "serverIPAddress": "172.217.9.131",
+        "pageref": "page_9"
+      },
+      {
+        "startedDateTime": "2017-04-13T22:29:18.905Z",
+        "time": 25.499999999738066,
+        "request": {
+          "method": "GET",
+          "url": "http://localhost:4204/sockjs-node/info?t=1492122558904",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch, br"
+            },
+            {
+              "name": "Host",
+              "value": "localhost:4204"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "http://localhost:4204/"
+            },
+            {
+              "name": "Cookie",
+              "value": "ASP.NET_SessionId=ayf4mbvg33opnwxhxolgzrsa; sid=cf51cb6180495836f2faa889dc31eae7db92368dd8a4f9f4058ef70dbc239e165c672ba9ab4df8892ed169d56a8309bdc441349c7e04f0348bae257a9f067491; io=Y9YYpl-7XC4ezhrKAAAB; showLeftCol=true"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "t",
+              "value": "1492122558904"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "ASP.NET_SessionId",
+              "value": "ayf4mbvg33opnwxhxolgzrsa",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "sid",
+              "value": "cf51cb6180495836f2faa889dc31eae7db92368dd8a4f9f4058ef70dbc239e165c672ba9ab4df8892ed169d56a8309bdc441349c7e04f0348bae257a9f067491",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "io",
+              "value": "Y9YYpl-7XC4ezhrKAAAB",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "showLeftCol",
+              "value": "true",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 618,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Date",
+              "value": "Thu, 13 Apr 2017 22:29:18 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-store, no-cache, no-transform, must-revalidate, max-age=0"
+            },
+            {
+              "name": "Vary",
+              "value": "Origin"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json; charset=UTF-8"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 79,
+            "mimeType": "application/json",
+            "compression": -11
+          },
+          "redirectURL": "",
+          "headersSize": 278,
+          "bodySize": 90,
+          "_transferSize": 368
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 21.0000000006403,
+          "dns": -1,
+          "connect": -1,
+          "send": 0,
+          "wait": 4.0000000008149,
+          "receive": 0.4999999982828669,
+          "ssl": -1
+        },
+        "serverIPAddress": "127.0.0.1",
+        "connection": "20108",
+        "pageref": "page_9"
+      }
+    ]
+  }
+}
