@@ -19,7 +19,7 @@ Load: 3.92s
 
 ### Angular 2 ( Ng2 )
 
-Requests: 12 
+Requests: 12
 Transferred: 6.1 
 Finish: 4.82s
 DOMContentLoaded: 4.55 s
