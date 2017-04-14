@@ -19,12 +19,12 @@ Load: 3.92s
 ![Alt text](/ng4_performance.PNG)
 
 ### Angular 2 ( Ng2 )
-
 Requests: 12
 Transferred: 6.1 
 Finish: 4.82s
 DOMContentLoaded: 4.55 s
 Load: 4.06 s
+
 [HAR for NG2](/angular2-har)
 ![Alt text](/ng2_performance.PNG)
 
