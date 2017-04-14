@@ -14,6 +14,7 @@ Finish: 3.66s
 DOMContentLoaded 3.57 s
 Load: 3.92s
 
+[HAR for NG4](/angular4-har)
 
 ![Alt text](/ng4_performance.PNG)
 
@@ -24,7 +25,7 @@ Transferred: 6.1
 Finish: 4.82s
 DOMContentLoaded: 4.55 s
 Load: 4.06 s
-
+[HAR for NG2](/angular2-har)
 ![Alt text](/ng2_performance.PNG)
 
 ### ANGULAR 4 Reduced the size about 1 MB and the Load time about .50 s
