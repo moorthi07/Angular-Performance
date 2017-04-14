@@ -11,22 +11,22 @@ This is a comparision of angular 2 project ported to angular 4.
 - Imported animation separately
 
 ### Angular 4 ( Ng4 )
--Requests: 12 
--Transferred: 5.3 MB  
--Finish: 3.66s
--DOMContentLoaded 3.57 s
--Load: 3.92s
+- Requests: 12 
+- Transferred: 5.3 MB  
+- Finish: 3.66s
+- DOMContentLoaded 3.57 s
+- Load: 3.92s
 
 [HAR for NG4](/angular4-har)
 
 ![Alt text](/ng4_performance.PNG)
 
 ### Angular 2 ( Ng2 )
--Requests: 12
--Transferred: 6.1 
--Finish: 4.82s
--DOMContentLoaded: 4.55 s
--Load: 4.06 s
+- Requests: 12
+- Transferred: 6.1 
+- Finish: 4.82s
+- DOMContentLoaded: 4.55 s
+- Load: 4.06 s
 
 [HAR for NG2](/angular2-har)
 ![Alt text](/ng2_performance.PNG)
