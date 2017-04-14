@@ -31,4 +31,10 @@ This is a comparision of angular 2 project ported to angular 4.
 [HAR for NG2](/angular2-har)
 ![Alt text](/ng2_performance.PNG)
 
+### Backward Compatibility
+- Primeng (GUI) framework worked seamlessly 
+- UI-router, ng2-restangular - packages failed and broke.
+
 ### ANGULAR 4 Reduced the size about 1 MB and the Load time about .50 s
+
+
