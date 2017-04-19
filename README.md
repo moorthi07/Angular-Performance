@@ -1,6 +1,10 @@
  # Angular-Performance
+ 
+  ###Angular (Angular 4 + will now be called 'Angular' )
 
-### Performance comparison between Angular 2 and Angular 4 (ng2 vs ng4)
+Angular 4 is a breaching version and claims some better performance and smaller in size. So, I tried ,
+
+### A performance comparison between Angular 2 and Angular 4 (ng2 vs ng4)
 
 
 ### Summary
