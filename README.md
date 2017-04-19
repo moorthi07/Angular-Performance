@@ -57,6 +57,7 @@ This is a comparison of angular 2 project ported to angular 4.
 
 - UI-router, ng2-restangular - packages failed and broke.
 
+## End Result:
 
 ### ANGULAR 4 Reduced the size about 1 MB and the Load time about .50 s
 
